@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*General CSS Style*/
+.layer-shefave{
+    position: absolute;
+    width: 100%; /*100% min son parant*/
+    height: 100%;/*100% min son parant*/
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-opacity{
+    transition: opacity  0.5s;
+}
+
+.hover-opacity:hover{
+    opacity: 0.8;
+}
+
+
+button{
+    font-family:'Poppins' , sans-serif;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    border-style: border-box; /*css3 */
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family:'Poppins' , sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto; /*yak ndir le container v nes sav7ali ndor*/
+}
+
+.header{
+    border-radius:0px 0px 2px 2px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background:black;
+}
+
+span a{
+    text-decoration: none;
+    color: #fcd921;
+    letter-spacing: 0.5px;
+    display: block; /*yak ngeddou nsa5rou linkat 3an ba3ed*/
+    padding: 10px 50px;
+}
+
+span a:hover{
+    opacity: 0.8;
+}
+
+.logo{
+    
+    color: #fcd921;
+    text-transform: uppercase;
+    width: 40%;
+    float: left;
+    font-weight: bold;
+
+}
+
+.header .nav {
+    text-align: right;
+    width:60% ;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.chnghver:hover{
+    opacity: 0.8;
+}
+
+.header .nav li {
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.nav li a{
+    color:#fcd921;
+    text-decoration: none;
+    display: block; /*yak ngeddou nsa5rou linkat 3an ba3ed*/
+    padding: 10px 60px;
+   
+}
+
+/* Home Section */
+
+.home {
+    height: 100vh;
+    background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-position: center ;
+    background-size: cover; /*CSS3*/
+    position: relative;
+    
+
+}
+
+.home-content{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+
+
+}
+
+.home .title{
+    letter-spacing: 2px;
+    color: #fcd921;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.home .home-desc{
+    text-transform: uppercase;
+    margin: 20px 0;
+    line-height: 20px;
+    color: #fcd921;
+    margin: 10px 0;
+}
+
+.contact-us-btn{
+    text-decoration: none;
+    color: #fcd921;
+}
+.home .btn-contact {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fcd921;
+    text-transform: capitalize;
+    width: 130px;
+    height: 30px;
+    margin: 15px 0;
+    border-radius: 5px ;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.7s ease;/* lwa9t li tnbetha9 vuh btn-contact*/
+    
+}
+.home .btn-contact:hover{
+     
+    transform: scale(1.1 , 1.1); /*tenbetha9 wa58a*/
+}
+
+/*OUR TEAM*/
+.section{
+    text-align: center;
+    
+}
+
+.our-team{
+    margin: 50px 0px 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.souretne {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transition: 0.7s ease;/* lwa9t li tnbetha9 vuh btn-contact*/
+}
+
+.Social-iconn a{
+    color: #fcd921;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+
+.tech-makers{
+    letter-spacing: 1px;
+    color: #fcd921;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.p{
+    color: #fcd921;
+    text-transform: capitalize;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-container{
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    margin-top: 40px;
+    width: 300px;
+    height: 410px;
+    box-shadow: 0 5px 25px rgba(255, 193, 6, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}yuhb
+
+.div-container:hover{
+        opacity: 0.8;
+        transform: scale(1.1 , 1.1); /*tenbetha9 wa58a*/
+        cursor: pointer;
+}
+
+
+
+
+.all{
+    color: #fcd921;
+    text-align: center;
+    margin: 50px 0px ;
+}
+
+
+/*SERVICES*/
+.cardes{
+    width: 100%;
+    height: 495px;
+}
+
+.titel{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    margin: 50px 0px 20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+}
+
+.content-ser{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carti:hover{
+    opacity: 0.8;
+        transform: scale(1.1 , 1.1); /*tenbetha9 wa58a*/
+        cursor: pointer;
+
+}
+
+.carti{
+    /*background-color: rgb(84, 75, 75);
+    width: 100px;
+    box-shadow: 0 5px 30px rgba(1, 1, 1, 10);*/
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    margin-top: 40px;
+    width: 162px;
+    height: 220px;
+    box-shadow: 0 5px 25px rgba(255, 193, 6, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+
+.serv-tite{
+    color: #fcd921;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.p-title{
+    color: #fcd921;
+    font-size: 10px;
+}
+
+/*icons*/
+
+
+
+
+/*CONTACT*/
+
+.conts{
+    height: 500px;
+}
+
+.div-container-contact:hover{
+    
+    transform: scale(0.9 , 0.9); /*trja3 da5le*/
+    
+}
+.div-container-contact{
+background-color: rgb(0, 0, 0);
+
+margin-top: 40px;
+width: 100%;
+height: 300px;
+box-shadow: 0 5px 25px rgba(255, 193, 6, 0.9);
+border-radius: 10px;
+padding: 20px;
+margin: 20px;
+transition: 0.9s ease;
+position: relative;
+
+
+}
+.centring{
+    width: 50%;
+    height: 100px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.contact-card{
+    display: flex;
+}
+
+input{
+    width: 100%;
+}
+
+.label{
+    color: #fcd921;
+}
+
+.contact{
+    margin: 50px 0px ;
+    border-bottom: #fcd921;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.send:hover{
+    
+    transform: scale(1.1 , 1.1); /*tenbetha9 wa58a*/
+    cursor: pointer;
+}
+
+
+.send{
+    text-align:center;
+    background: #000000;
+    color: #fcd921;
+    text-transform: capitalize;
+    width: 130px;
+    height: 30px;
+    margin: 10px ;
+    border-radius: 5px ;
+    border: 2px dotted #fcd921;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.7s ease;/* lwa9t li tnbetha9 vuh btn-contact*/
+    }
+
+
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: #fcd921;
+    padding: 20px;
+    
+}
+
+.tach{
+    text-transform: uppercase;
+    font-weight: bold;
+}
